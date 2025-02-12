@@ -1,6 +1,6 @@
-const firstArr = ['You should really ', "If I were you, I wouldn't ", "At least once, "], 
-      secondArr = ['try', 'dance salsa  '], 
-      thirdArr = [];
+const firstArr = ['You should really', "If I were you, I wouldn't", "At least once,"], 
+      secondArr = [' try', ' dance salsa', " build a rocketship"], 
+      thirdArr = ['.', ' with somebody.', " before it's to late."];
 
 
 
@@ -22,6 +22,7 @@ function thirdPart() {
 
 
 function getRandomMessage() {
-
+    return firsPart() + secondPart() + thirdPart();
 };
 
+console.log(getRandomMessage());
